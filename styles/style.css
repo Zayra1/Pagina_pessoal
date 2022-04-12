@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+}
+#menu {
+    position: fixed;
+    z-index: 1;
+    background-color: #614f51;
+    font-size: 20px;
+    width: 100%;
+    height: 70px;
+    border-radius: 0px 0px 5px 5px;
+}
+#menu img{
+    width: 45px;
+    height: 45px;
+   border-radius: 55%;
+   mix-blend-mode: normal;
+   box-shadow: 5px 5px 5px 5px rgba(100, 100, 100, 0.377);
+}
+#menu a{
+    color: aliceblue;
+}
+
+#menu ul{
+    color: aliceblue;
+    width: 100%;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#efeitos img{
+    width: 100%; 
+    opacity: 0.8;
+  }
+  
+  #eu{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 45%;
+    top: 20%;
+   border-radius: 15%;
+   mix-blend-mode: normal;
+   box-shadow: 5px 5px 5px 5px rgba(97, 96, 96, 0.27);
+  }
+  #saudacao{
+
+        color: #6e5050;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 60px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    main{
+        width: 60%;
+        margin-left: 20%;
+    
+    }
+    #sobremim{
+        display: flex;
+        justify-content: center;
+    }
+    .slider {
+        overflow: hidden;
+    
+    }
+    
+    .slider>.slider-content {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        transition: all 500ms ease;
+    
+    }
+    
+    .slider>.slider-content>.slider-item {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        
+    }
+    
+    .slider>input:nth-child(1):checked~.slider-content {
+        transform: translateX(0%);
+    }
+    
+    .slider>input:nth-child(2):checked~.slider-content {
+        transform: translateX(-100%);
+    }
+    
+    .slider>input:nth-child(3):checked~.slider-content {
+        transform: translateX(-200%);
+    }
+    
+    .slider>input:nth-child(4):checked~.slider-content {
+        transform: translateX(-300%);
+    }
+    table { 
+        width:70%;
+        margin:0 auto;
+        border-spacing:0;
+        border-right:1px solid rgb(8, 8, 8);
+        border-bottom:1px solid rgb(0, 0, 0);
+    }
+     
+    caption {
+        font-size:130%;
+        font-weight:bold;
+        padding:5px 0;
+        background-color:#8f8f8f;
+        border:1px solid rgb(0, 0, 0);
+        border-bottom:none;
+    }
+     
+    tr, td, th {
+        border:thin solid rgb(0, 0, 0);
+        border-bottom:none;
+        border-right:none;
+        padding:5px;
+        color: rgb(44, 10, 10);
+    }
+     
+    td { 
+        text-align:center;
+    }
+
+
+body{
+   
+  background-color: rgb(255, 255, 255);
+ 
+}
+#curriculo{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color: #705151;
+    font-size: x-large;
+    padding: 2%;
+    white-space: inherit;
+}
+footer {
+    
+    color: white;
+    background-color:#614f51;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer ul {
+    display: flex;
+}
